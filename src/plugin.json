@@ -1,25 +1,19 @@
 {
-  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "Alertlist-Audio",
-  "id": "grafana-alertlistaudio-panel",
+  "name": "Alert list",
+  "id": "alertlist",
+
+  "skipDataQuery": true,
+
   "info": {
-    "keywords": ["panel"],
-    "description": "",
+    "description": "Shows list of alerts and their current status",
     "author": {
-      "name": "Grafana"
+      "name": "Grafana Labs",
+      "url": "https://grafana.com"
     },
     "logos": {
-      "small": "img/logo.svg",
-      "large": "img/logo.svg"
-    },
-    "links": [],
-    "screenshots": [],
-    "version": "%VERSION%",
-    "updated": "%TODAY%"
-  },
-  "dependencies": {
-    "grafanaDependency": ">=10.4.0",
-    "plugins": []
+      "small": "img/icn-singlestat-panel.svg",
+      "large": "img/icn-singlestat-panel.svg"
+    }
   }
 }
